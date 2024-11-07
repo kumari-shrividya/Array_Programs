@@ -1,5 +1,5 @@
 
-function first_repeating_elmt(arr) {
+function firstRepeatingElmt(arr) {
 
     let set=new Set();
 
@@ -20,4 +20,4 @@ function first_repeating_elmt(arr) {
 
 let arr =  [1, 5, 3, 4, 3, 5, 6];
 
-console.log(first_repeating_elmt(arr))
+console.log(firstRepeatingElmt(arr))
