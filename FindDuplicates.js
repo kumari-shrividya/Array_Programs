@@ -1,17 +1,17 @@
 
 function findDup(arr){
 
-	let Dup=[]
+	let dup = [];
 
 	arr.filter((item,index)=>{
 
    		 if(arr.indexOf(item)!==index)
-   		 {
-        Dup.push(item)
+   		{
+          dup.push(item)
     	}
 	})
   
-	console.log(Dup)
+	console.log(dup)
 
 
 }
